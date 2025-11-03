@@ -1,7 +1,9 @@
+import "./ProfileCard.css";
+
 function ProfileCard({ avatar, fullName, job, hobby }) {
   return (
-    <div className = "lesson-card-wrapper">
-      <img src={avatar} alt="avatar" width="100" />
+    <div className="profile-card-wrapper">
+      <img src={avatar} alt="avatar" />
       <h3>{fullName}</h3>
       <p>Профессия: {job}</p>
       <p>Хобби: {hobby}</p>

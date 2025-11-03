@@ -1,27 +1,26 @@
-import ProfileCard from "../components/ProfileCard";
+import ProfileCard from "../components/ProfileCard/ProfileCard";
+import "./Homework02.css";
 
 function Homework02() {
   return (
-    <div style = {{ display: "flex", gap: "20px" }}>
+    <div className="cards-container">
       <ProfileCard
-        avatar = "https://i.pravatar.cc/400?img=12"
-        fullName = "John Doe"
-        job = "Frontend Developer"
-        hobby = "Футбол"
+        avatar="https://i.pravatar.cc/150?img=3"
+        fullName="John Smith"
+        job="Frontend Developer"
+        hobby="Готовка"
       />
-
       <ProfileCard
-        avatar = "https://i.pravatar.cc/400?img=48"
-        fullName = "Sarah Miller"
-        job = "Designer"
-        hobby = "Рисование"
+        avatar="https://i.pravatar.cc/150?img=5"
+        fullName="Anna Johnson"
+        job="UX Designer"
+        hobby="Путешествия"
       />
-
       <ProfileCard
-        avatar = "https://i.pravatar.cc/150?img=3"
-        fullName = "Alex Carter"
-        job = "QA Engineer"
-        hobby = "Игры"
+        avatar="https://i.pravatar.cc/150?img=8"
+        fullName="Michael Brown"
+        job="QA Engineer"
+        hobby="Футбол"
       />
     </div>
   );
